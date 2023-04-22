@@ -15,7 +15,7 @@ printf is a function used to print formatted output to the console or other outp
 - The prototypes of all your functions should be included in your header file called __main.h__.
 - Don’t forget to push your header file.
 - All your header files should be include guarded.
-- Note that we will not provide the ___putchar___ function for this project.
+- Note that we will not provide the `___putchar___` function for this project.
 
 ## GitHub
 
@@ -23,4 +23,5 @@ There should be one project repository per group. The other members do not fork 
 
 ## Compilation
 
-Your code will be compiled this way
+Your code will be compiled this way:
+
