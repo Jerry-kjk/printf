@@ -106,5 +106,5 @@ These are all the tasks of this project, the ones that are completed link to the
 
 ### Authors
 
-* **JERITA CHIBHABHA** - [] (https://github.com/jeritaalx2023)
+* **JERITA CHIBHABHA** - [jchibhabha1@gmail.com] (https://github.com/jeritaalx2023)
 * **JERRY KAJIK** - [jerrykajik@gmail.com] (https://github.com/jerry-kjk)
