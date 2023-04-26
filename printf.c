@@ -21,28 +21,28 @@ int _printf(const char *format, ...)
 		{
 			format++;
 			if (*format == '\0')
-                                return (-1);
+				return (-1);
 
-                        switch (*format)
-                        {
-                                case 'c':
-                                length += putchar(va_arg(args, int));
-                                break;
-                                case 's':
-                                length += puts(va_arg(args, char *));
-                                break;
-                                default:
-                                length += putchar('%');
-                                length += putchar(*format);
-                                break;
-                        }
-                }
-                else
-                {
-                        length += putchar(*format);
-                }
-                format++;
-        }
-        va_end(args);
-        return (length);
+			switch (*format)
+			{
+				case 'c':
+					putchar(va_arg(args, int));
+					length++;
+					break;
+				case 's':
+					length += fputs(va_arg(args, char *), stdout);
+					break;
+				default:
+					length += 2;
+					break;
+			}
+		}
+		else
+		{
+			length += putchar(*format);
+		}
+		format++;
+	}
+	va_end(args);
+	return (length);
 }
